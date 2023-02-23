@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="text-white-600 font-body">
+    <nav class="flex flex-row items-center px-6 justify-end h-24 left-0 top--5 bg-white bg-opacity-20 shadow-md>
+        <div class="flex items-center gap-96">
+            <div class="relative">
+                <div class="">
+                    <img class="h-8 mr-2 ml-0" src="images/subitron logo.png" alt="Logo">
+                </div>
+            </div>
+            <div class="flex items-center justify-end ml-auto">
+                <a href="#" class="mr-8">
+                    <span class="text-black font-medium text-sm inline-block" style="width: 46px; height: 19px;">Home</span>
+                  </a>
+                  <a href="#" class="mr-8">
+                    <span class="text-black font-medium text-sm inline-block" style="width: 70px; height: 19px;">About Us</span>
+                  </a>
+                  <a href="#" class="mr-8">
+                    <span class="text-black font-medium text-sm inline-block" style="width: 68px; height: 19px;">Services</span>
+                  </a>
+                  <a href="#">
+                    <span class="text-black font-medium text-sm inline-block" style="width: 85px; height: 19px;">Contact Us</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel-container relative">
+    <div class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-end p-0">
+        <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25, 0.1, 0.25, 1.0)] motion-reduce:transition-none"
+        aria-current="true"
+        aria-label="Slide 1"></button>
+        <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 2"></button>
+        <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+        <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            style="backface-visibility: hidden">
+            <img src="./images/smiling man.jpg" class="block w-full" alt="Man" />
+            <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                <h5 class="text-xl">First slide label</h5>
+                <p> Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+  </div>
+  <button
+    class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleCaptions"
+    data-te-slide="prev">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Previous</span
+    >
+  </button>
+  <button
+    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleCaptions"
+    data-te-slide="next">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Next</span
+    >
+  </button>
+</div>
+      
+      
+    
+    
+
+      
+</body>
+</html>
+
+
+<!--
+
+ <div class="absolute w-1440 h-559 left-0 top-85 bg-gray-200">
+    <img src="images/smiling man.jpg" alt="Man">
+    <div class="flex flex-row items-start gap-7 p-0 absolute left-76.53 right-14.17 top-93.38 bottom-5.9 bg-gray-100">
+        
+    </div>
+</div>
+
+-->
+
+
+
+
