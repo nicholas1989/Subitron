@@ -32,77 +32,278 @@
         </div>
     </nav>
     <div class="carousel-container relative">
-    <div class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-end p-0">
-        <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25, 0.1, 0.25, 1.0)] motion-reduce:transition-none"
-        aria-current="true"
-        aria-label="Slide 1"></button>
-        <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-        aria-label="Slide 2"></button>
-        <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-        <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-            style="backface-visibility: hidden">
-            <img src="./images/smiling man.jpg" class="block w-full" alt="Man" />
-            <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                <h5 class="text-xl">First slide label</h5>
-                <p> Some representative placeholder content for the first slide.</p>
+        <div class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-end p-0">
+            <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25, 0.1, 0.25, 1.0)] motion-reduce:transition-none"
+            aria-current="true"
+            aria-label="Slide 1"></button>
+            <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 2"></button>
+            <button type="button" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">     
+            <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                style="backface-visibility: hidden">
+                <img src="./images/smiling man.jpg" class="block w-full" alt="Man" />
             </div>
         </div>
-  </div>
-  <button
-    class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-te-target="#carouselExampleCaptions"
-    data-te-slide="prev">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M15.75 19.5L8.25 12l7.5-7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Previous</span
-    >
-  </button>
-  <button
-    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-te-target="#carouselExampleCaptions"
-    data-te-slide="next">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Next</span
-    >
-  </button>
-</div>
-      
-      
-    
+        <div class="absolute inset-x-[7.15%] inset-y-[50%] bottom-5 hidden py-5 text-left text-white md:block">
+            <div class="w-617 h-144 font-raleway font-semibold text-white text-5xl leading-72 flex-none order-0 flex-grow-0">
+                Your Technology <br/> Solutions Provider
+            </div>
+            <p class="w-575 h-19 font-inter font-semibold text-white text-base leading-5 flex-none order-1 flex-grow-0">
+                Get practical solutions for your business, we can show you or do it for you
+            </p>
+            <button type="button" class="inline-block bg-primary px-6 pt-2.5 pb-2.5 text-white text-base leading-28 bg-red-500 hover:bg-red-600 focus:outline-none rounded-md shadow-[0_4px_9px_-4px_#3b71ca]">
+                Book a session
+            </button>
+            &nbsp;&nbsp;
+            <button type="button" class="inline-block bg-primary px-6 pt-2.5 pb-2.5 text-gray-700 text-base leading-28 bg-white hover:bg-gray-100 focus:bg-gray-100 focus:outline-none rounded-md shadow-[0_4px_9px_-4px_#3b71ca]">
+                Learn more
+            </button>   
+        </div>
+        <button
+            class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button"
+            data-te-target="#carouselExampleCaptions"
+            data-te-slide="prev">
+            <span class="inline-block h-8 w-8">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6">
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+            </span>
+            <span
+            class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+            >Previous</span
+            >
+        </button>
+        <button
+            class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button"
+            data-te-target="#carouselExampleCaptions"
+            data-te-slide="next">
+            <span class="inline-block h-8 w-8">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6">
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+            </span>
+            <span
+            class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+            >Next</span
+            >
+        </button>
+    </div>
+    <div class="container my-14 px-6 mx-auto items-center p-0 gap-40 absolute w-1065 h-594 left-171 top-690">
+        <section class="mb-32 text-black-800 text-center">
+            <div class="w-245 h-28 font-bold font-raleway text-3xl leading-28 text-gray-700">
+                Our Services
+                <p class="w-456 h-28 font-medium font-inter text-base leading-28 text-gray-700 flex-none order-1">
+                    Take a look at our services to find out how we can help you.
+                </p>
+                <div class="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
+                    <div class="mb-6 lg:mb-0 items-center">
+                        <div class="relative block border border-black rounded-lg shadow-lg">
+                            <div class="flex justify-center">
+                                <div class="relative overflow-hidden items-center bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                    <img src="./images/Group.png" class="mt-10" alt="Group"/>
+                                    <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                                    style="background-color:rgba(251, 251, 251, 0.15)"></div>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h2 class="text-black-500 items-center mb-8">Consulting</h2>
+                                <p class="w-249 h-128 font-poppins font-medium text-base leading-24 text-center text-gray-700 flex-none order-2">
+                                    We assist businesses maximize value from their process initiatives and IT investments leading to improved organizational performance.
+                                </p>
+                                <a href="#" class="w-77 h-25 font-inter font-bold text-base leading-24 text-center underline text-blue-600 flex-none order-3">
+                                    Know more
+                                </a>                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-6 lg:mb-0">
+                        <div class="mb-6 lg:mb-0 items-center">
+                            <div class="relative block border border-black rounded-lg shadow-lg">
+                                <div class="flex justify-center">
+                                    <div class="relative overflow-hidden items-center bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+                                        data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                        <img src="./images/Group2.png" class="mt-10" alt="Group2"/>
+                                        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                                        style="background-color:rgba(251, 251, 251, 0.15)"></div>
+                                    </div>
+                                </div>
+                                <div class="p-6">
+                                    <h2 class="text-black-500 items-center mb-6">E-Learning</h2>
+                                    <p class="w-249 h-128 font-poppins font-medium text-base leading-24 text-center text-gray-700 flex-none order-2">
+                                        We create customized e-learning courses for businesses, which not only successfully communicate your learning objectives but also uphold the distinctiveness of your brand.
+                                    </p>
+                                    <a href="#" class="w-77 h-25 font-inter font-bold text-base leading-24 text-center underline text-blue-600 flex-none order-3">
+                                        Know more
+                                    </a>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6 lg:mb-0">
+                        <div class="mb-6 lg:mb-0 items-center">
+                            <div class="relative block border border-black rounded-lg shadow-lg">
+                                <div class="flex justify-center">
+                                    <div class="relative overflow-hidden items-center bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+                                        data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                        <img src="./images/software-platform-computer-software-system-svgrepo-com (1) 1 (1).png" class="mt-10" alt="Software"/>
+                                        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                                        style="background-color:rgba(251, 251, 251, 0.15)"></div>
+                                    </div>
+                                </div>
+                                <div class="p-6">
+                                    <h2 class="text-black-500 items-center mb-8">Software Development</h2>
+                                    <p class="w-249 h-128 font-poppins font-medium text-base leading-24 text-center text-gray-700 flex-none order-2">
+                                        We take our customers' challenges and create a system that offers solutions, by leveraging on our strong capabilities and experience in integration solutions.
+                                    </p>
+                                    <a href="#" class="w-77 h-25 font-inter font-bold text-base leading-24 text-center underline text-blue-600 flex-none order-3">
+                                        Know more
+                                    </a>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center p-0 gap-40 w-289 h-48 flex-none order-2">
+                    <button class="flex flex-row bg-primary px-10 pt-2.5 pb-2.5 text-white text-base justify-center items-center  bg-red-600 focus:outline-none rounded-md shadow-[0_4px_9px_-4px_#3b71ca]">
+                        More Services
+                    </button>                    
+                </div>
+                <div class="absolute left-[-6px] bg-purple-900 w-[1300px] h-[268px] py-4" style="position: relative; z-index: 2;">
+                    <div class="w-534 h-61 font-raleway font-extrabold text-white text-4xl mt-10 leading-61 flex-none flex items-center justify-center">
+                        Running A Business is Hard!
+                    </div> 
+                    <h5 class="w-358 h-28 font-inter font-semibold text-white mt-3 text-xl leading-28 flex-none order-1">
+                        you don’t have to do it all alone
+                        <p class="w-680 h-56 font-inter font-semibold text-lg mt-2 leading-28 text-center text-purple-300 flex-none order-2 flex-grow-0">
+                            We can help you improve operational and organizational efficiency, with specialized <br/> solutions tailored to your specific business challenges.
+                        </p>  
+                    </h5> 
+                </div>
+
+                <div class="flex flex-col rounded-xl mt-8 bg-white bg-transparent bg-clip-border shadow-none" style="position: relative; z-index: 1;">
+                    <div class="flex">
+                        <div class="w-1/3">
+                            <img class="rounded-lg" src="./images/bulb.png" alt="Bulb">
+                        </div>
+                        <div class="text-secondary w-2/3 flex-1 p-6">
+                            <span class="text-red-700 font-bold text-xl mb-4">What you get is simple!</span>
+                            <h2 class="text-black text-2xl font-bold mb-2">Tailor-Made</h2>
+                            <h2 class="text-red-500 text-2xl font-bold mb-6">Business Solution</h2>
+                            <p class="w-532 h-105 font-inter font-medium text-base leading-28 text-gray-700 flex-none order-2 flex-grow-0">
+                                From developing a product to optimizing your business processes, Our goal is to educate you about your options and to lead you down the path that is best suited for you them and your business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[1350px] h-[268px] h-screen py-4" style="position: relative; z-index: 2;">
+                    <div class="w-534 h-61 font-raleway font-extrabold text-white text-4xl mt-10 leading-61 flex-none flex items-center justify-center">
+                        <img src="./images/stretch.png" alt="stretch">
+                        <div class="flex flex-col items-center gap-54 absolute w-997 h-136 left-222 top-2212">
+                            <div class="w-397 h-28 font-inter font-bold text-3xl leading-7 text-white flex-none order-0 flex-grow-0">
+                                OUR TRACK RECORD SAYS IT ALL
+                            </div>
+                            <div class="grid gap-16 sm:grid-cols-3 lg:grid-cols-3">
+                                <div class="text-center">
+                                    <h6 class="text-4xl text-red-500 font-inter font-extrabold leading-7 text-deep-purple-accent-400">10 Years</h6>
+                                    <p class="mb-2 text-white font-medium text-base">of Experience</p>
+                                </div>
+                                <div class="text-center">
+                                    <h6 class="text-4xl  text-red-500 font-inter font-extrabold leading-7 text-deep-purple-accent-400">25+</h6>
+                                    <p class="mb-2 text-white font-medium text-base">Happy Customers</p>
+                                </div>
+                                <div class="text-center">
+                                    <h6 class="text-4xl  text-red-500 font-inter font-extrabold leading-7 text-deep-purple-accent-400">150</h6>
+                                    <p class="mb-2 text-white font-medium text-base">Solutions Deployed</p>
+                                </div>
+                            </div>     
+                        </div>
+                    </div>          
+                </div>
+                <div class="px-6 py-4">
+                    <div
+                      class="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
+                        <div class="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
+                            <h1 class="w-431 h-74 font-inter font-bold text-5xl leading-7 flex items-center text-red-600 flex-none order-0 flex-grow-0">
+                                Talk To Us!
+                            </h1>
+                            <br/>
+                            <h6 class="w-459 h-78 flex items-center font-inter font-bold  text-lg leading-6 capitalize text-gray-700 flex-none order-1 flex-grow-0">
+                                We strongly believe in the value of
+                            </h6>
+                            <h6 class="w-459 h-78 flex items-center font-inter font-bold  text-lg leading-6 capitalize text-gray-700 flex-none order-1 flex-grow-0">
+                                open communication
+                            </h6>
+                        </div>
+                        <div class="md:w-2/4 lg:ml-6 lg:w-1/3 p-8 border border-black rounded-lg">
+                            <form>
+                                <div class="mb-6">
+                                    <label for="text" class="block mb-2 text-sm text-left font-medium text-gray-900 dark:text-white">Your name:</label>
+                                    <input type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name">
+                                </div>
+                                <div class="mb-6">
+                                    <label for="email" class="block mb-2 text-sm text-left font-medium text-gray-900 dark:text-white">Your email:</label>
+                                    <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="email@example.com">
+                                </div>
+                                <div class="items-start mb-6">
+                                    
+                                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Please enter your enquiry here</label>
+                                    <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Please enter your enquiry here..."></textarea>
+
+                                </div>
+                                    <button type="submit" class="text-white bg-red-700 mb-2 block w-full rounded border-2 border-primary px-6 pt-2 pb-[6px] text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-red-600 hover:bg-red-700 hover:bg-opacity-10 hover:bg-red-600 focus:border-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:hover:bg-red-600 dark:hover:bg-opacity-10">Submit</button>
+                            
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <footer class="bg-neutral-900 text-center text-white">
+                    <div class="container px-6 pt-6">
+                        <div class="flex flex-row justify-between items-start p-0 gap-332 w-1031 h-160 flex-none order-0">
+                            <!-- Content here -->
+                        </div>
+                          
+                    </div>
+                  
+                    <div
+                      class="p-4 text-center"
+                      style="background-color: rgba(0, 0, 0, 0.2)">
+                      © 2022 Copyright:
+                      <a class="text-whitehite" href="https://tailwind-elements.com/"
+                        >Subitron Ltd copyright 2022</a
+                      >
+                    </div>
+                </footer>
+        </section>  
+              
+    </div>
     
 
       
@@ -112,12 +313,28 @@
 
 <!--
 
- <div class="absolute w-1440 h-559 left-0 top-85 bg-gray-200">
-    <img src="images/smiling man.jpg" alt="Man">
-    <div class="flex flex-row items-start gap-7 p-0 absolute left-76.53 right-14.17 top-93.38 bottom-5.9 bg-gray-100">
-        
-    </div>
-</div>
+     <div class="mt-8 px-6 py-4">
+                    <div class="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
+                        <div class="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
+                            <h1 class="w-431 h-74 font-inter font-bold text-5xl leading-7 flex items-center text-red-600 flex-none order-0 flex-grow-0">
+                                Talk To Us!
+                            </h1>
+                            <br/>
+                            <h6 class="w-459 h-78 flex items-center font-inter font-bold  text-lg leading-6 capitalize text-gray-700 flex-none order-1 flex-grow-0">
+                                We strongly believe in the value of
+                            </h6>
+                            <h6 class="w-459 h-78 flex items-center font-inter font-bold  text-lg leading-6 capitalize text-gray-700 flex-none order-1 flex-grow-0">
+                                open communication
+                            </h6>
+
+                        </div>
+                        <div class="block max-w-sm rounded-lg border border-black p-6 shadow-lg">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+
 
 -->
 
